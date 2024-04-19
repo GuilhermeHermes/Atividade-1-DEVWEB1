@@ -1,10 +1,11 @@
 html {
-    font-size: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 p {
-    font-size: 0.5em;
-    border: 1px solid orange;
+    font-size: 1em;
     padding: 0px 0px;
     margin: 0px 5px;
     font-family: allegretto, sans-serif;
@@ -12,8 +13,142 @@ p {
     font-weight: 400;
 }
 
+body {
+    background-color: #66ac56;
+    margin: 0;
+}
+
+:root {
+    /* Generated from Material Theme Builder Figma plugin
+       or `material-color-utilities`. */
+    --md-sys-color-primary: #58443b;
+    --md-sys-color-on-primary: wheat;
+    /* ... */
+  }
+
+  :root {
+    --md-sys-shape-corner-small: 4px;
+    --md-sys-shape-corner-medium: 6px;
+    --md-sys-shape-corner-large: 8px;
+  }
+
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1{
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+span.gui {
+    color: #191970; /* Cor para "Gui" */
+}
+
+span.rol {
+    color: #4B0082; /* Cor para "rol" */
+}
+
+.elemento:hover {
+    background-color: yellow;
+}
+
+.center {
+    text-align: center;
+}
+
 pre {
 
     font-size: 0.5em;
     font-family:    "Bookman Old Style", Georgia, serif;
+}
+
+
+
+p.texto-colorido {
+    font-family: allegretto, sans-serif;
+    background-color:tomato;
+}
+
+
+h2.texto-colorido  {
+    font-family: verdana;
+    background-color: teal;
+    text-align: center;
+}
+
+:root {
+    --md-sys-shape-corner-small: 4px;
+    --md-sys-shape-corner-medium: 6px;
+    --md-sys-shape-corner-large: 8px;
+  }
+
+a.custom-link {
+    color: black; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: bold; /* Define a fonte em negrito */
+    font-family: Arial, sans-serif; /* Define a família de fontes */
+    padding: 10px 20px; /* Adiciona espaçamento interno ao redor do link */
+    background-color: #f0f0f0; /* Cor de fundo do link */
+    border: 2px solid black; /* Adiciona uma borda sólida */
+    border-radius: var(--md-sys-shape-corner-large); /* Adiciona bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s; 
+    /* Adiciona uma transição suave de cor e fundo */
+}
+
+
+a.custom-link:hover {
+    background-color: black; /* Altera a cor da borda ao passar o mouse */
+}
+
+a.custom-link.second:hover {
+    background-color: #4B0082; /* Altera a cor de fundo ao passar o mouse */
+    color: #191970; /* Altera a cor do texto ao passar o mouse */
+}
+a.custom-link.third:hover {
+    background-color: teal; /* Altera a cor da borda ao passar o mouse */
+}
+
+
+li.custom-marker {
+    list-style-type:none;
+    text-align: center;
+}
+
+
+hr {
+    border: none; /* Remove a borda padrão */
+    height: 2px; /* Define a altura da linha */
+    background-color: #000; /* Define a cor da linha */
+    margin: 20px 0; /* Adiciona margem acima e abaixo da linha */
+}
+
+body {
+    
+    background-image:  url('pictures/cacamisa5.png'), url(pictures/cacamisa3.png);
+    background-size: 150px 150px;
+    background-position: top left, bottom right;
+}
+
+blockquote {
+    background-color: tomato;
+}
+
+img {
+   
+    width: 30%; 
+    display: inline-block;
+    margin-right: 10px; /* Adicione margem direita para espaçamento */
+    
 }
