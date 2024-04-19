@@ -1,0 +1,19 @@
+html {
+    font-size: 40px;
+}
+
+p {
+    font-size: 0.5em;
+    border: 1px solid orange;
+    padding: 0px 0px;
+    margin: 0px 5px;
+    font-family: allegretto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+pre {
+
+    font-size: 0.5em;
+    font-family:    "Bookman Old Style", Georgia, serif;
+}
